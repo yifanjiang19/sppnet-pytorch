@@ -1,4 +1,4 @@
-# SPP-pytorch
+# sppnet-pytorch
 SPP layer could be added in CNN model between convolutional layer and fully-connected lay, so that you can input multi-size images into your CNN model.
 </br>
 </br>
