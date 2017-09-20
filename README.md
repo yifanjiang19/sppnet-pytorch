@@ -1,5 +1,5 @@
 # SPP-pytorch
-SPP layer could be added to CNN model between convolutional layer and fully-connected lay, so that you can input multi-size images into your CNN model.
+SPP layer could be added in CNN model between convolutional layer and fully-connected lay, so that you can input multi-size images into your CNN model.
 </br>
 </br>
 The function `spatial_pyramid_pool()` in file `spp_layer.py` is independent. It could be added in your own models.
