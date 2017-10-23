@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+F	../cnn_with_spp.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:7
+SPP_NET	../cnn_with_spp.py	/^class SPP_NET(nn.Module):$/;"	kind:class	line:9
+Variable	../cnn_with_spp.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:5
+__init__	../cnn_with_spp.py	/^    def __init__(self, opt, input_nc, ndf=64,  gpu_ids=[]):$/;"	kind:member	line:13
+cnn_with_spp.py	../cnn_with_spp.py	1;"	kind:file	line:1
+forward	../cnn_with_spp.py	/^    def forward(self,x):$/;"	kind:member	line:33
+functools	../cnn_with_spp.py	/^import functools$/;"	kind:namespace	line:4
+init	../cnn_with_spp.py	/^from torch.nn import init$/;"	kind:namespace	line:3
+nn	../cnn_with_spp.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+nn	../cnn_with_spp.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:7
+np	../cnn_with_spp.py	/^import numpy as np$/;"	kind:namespace	line:6
+spatial_pyramid_pool	../cnn_with_spp.py	/^from spp_layer import spatial_pyramid_pool$/;"	kind:namespace	line:8
+spatial_pyramid_pool	../spp_layer.py	/^def spatial_pyramid_pool(self,previous_conv, num_sample, previous_conv_size, out_pool_size):$/;"	kind:function	line:1
+spp_layer.py	../spp_layer.py	1;"	kind:file	line:1
+torch	../cnn_with_spp.py	/^import torch$/;"	kind:namespace	line:1
+torch	../cnn_with_spp.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+torch	../cnn_with_spp.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:7

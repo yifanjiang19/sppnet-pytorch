@@ -26,7 +26,7 @@ class SPP_NET(nn.Module):
         self.conv4 = nn.Conv2d(ndf * 4, ndf * 8, 4, 1, 1, bias=False)
         self.BN3 = nn.BatchNorm2d(ndf * 8)
 
-        self.conv5 = nn.Conv2d(ndf * 8, 1, 4, 1, 0, bias=False)
+        self.conv5 = nn.Conv2d(ndf * 8, 64, 4, 1, 0, bias=False)
         self.fc1 = nn.Linear(10752,4096)
         self.fc2 = nn.Linear(4096,1000)
 
