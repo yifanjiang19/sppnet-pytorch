@@ -6,3 +6,4 @@ The function `spatial_pyramid_pool()` in file `spp_layer.py` is independent. It 
 </br>
 </br>
 See this:<a href="https://arxiv.org/abs/1406.4729">Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition</a>
+`SPP_Layer.py` provides a torch.nn.Module of spp_layer which can be inserted into any models very easily.
